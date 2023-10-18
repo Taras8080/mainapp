@@ -1,0 +1,70 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Моніторинг цін на бетон в Україні</title>
+</head>
+<body>
+
+<header class="bg-blue-400 text-white py-7">
+  <div class="container mx-auto flex justify-between items-center">
+    <a href="#" class="text-3xl font-bold">Бетон та вироби з бетону</a>
+    <nav>
+      <ul class="flex space-x-4">
+        <li><a href="#" class="hover:underline">Головна</a></li>
+        <li><a href="#" class="hover:underline">Послуги</a></li>
+        <li><a href="#" class="hover:underline">Про нас</a></li>
+        <li><a href="#" class="hover:underline">Контакти</a></li>
+        <button class="bg-purple-400 hover:bg-purple-600 text-white font-semibold py-2 px-4 rounded-full transition duration-300 ease-in-out right-15">
+  Вхід / Реєстрація
+</button>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<nav class="bg-blue-600 text-white py-2">
+  <div class="container mx-auto">
+    <ul class="flex space-x-4 justify-center">
+      <li><a href="#" class="hover:underline">Категорія 1</a></li>
+          <ul class="submenu">
+            <li><a href="#">Підкатегорія 1.1</a></li>
+            <li><a href="#">Підкатегорія 1.2</a></li>
+            <li><a href="#">Підкатегорія 1.3</a></li>
+          </ul>
+      <li><a href="#" class="hover:underline">Категорія 2</a></li>
+      <li><a href="#" class="hover:underline">Категорія 3</a></li>
+      <li><a href="#" class="hover:underline">Категорія 4</a></li>
+      <li><a href="#" class="hover:underline">Категорія 5</a></li>
+      
+    </ul>
+  </div>
+</nav>
+
+
+
+<h1 class="text-4xl font-bold text-center text-blue-600">Татова Софійка</h1>
+
+
+
+<footer class="bg-gray-800 text-white py-6 absolute bottom-0 w-full" >
+  <div class="container mx-auto flex flex-col items-center">
+    <p class="mb-4">Моніторинг цін на бетон, та інші будівельні матеріали</p>
+    <ul class="flex space-x-4">
+      <li><a href="#" class="hover:underline">Посилання 1</a></li>
+      <li><a href="#" class="hover:underline">Посилання 2</a></li>
+      <li><a href="#" class="hover:underline">Посилання 3</a></li>
+      <li><a href="#" class="hover:underline">Посилання 4</a></li>
+    </ul>
+    <p class="mt-4">© 2023 Ваша компанія. Усі права захищені.</p>
+  </div>
+</footer>
+
+</body>
+</html> 
