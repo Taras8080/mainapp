@@ -1,0 +1,6 @@
+submenu {
+    display: none;
+  }
+  .category:hover .submenu {
+    display: block;
+  }
